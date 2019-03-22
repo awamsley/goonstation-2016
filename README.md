@@ -2,6 +2,8 @@
 
 Official release of goonstation from 2016-03-04, based on revision 35cd644.
 
+The original, non-updated version of this repository is commit d8a2d60.
+
 See our statement [here](http://goo.gl/RmjGFN)
 
 ## Pull Requests

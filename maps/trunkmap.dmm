@@ -4075,7 +4075,7 @@
 "bAr" = (/obj/disposalpipe/broken{tag = "icon-pipe-b (WEST)"; icon_state = "pipe-b"; dir = 8},/turf/simulated/floor,/area)
 "bAs" = (/obj/item/storage/pill_bottle/antitox,/turf/simulated/floor,/area)
 "bAt" = (/obj/grille,/obj/window/reinforced{tag = "icon-rwindow (EAST)"; icon_state = "rwindow"; dir = 4},/obj/window/reinforced{tag = "icon-rwindow (WEST)"; icon_state = "rwindow"; dir = 8},/obj/window/reinforced,/turf/simulated/floor/plating,/area)
-"bAu" = (/turf/unsimulated/floor/Vspace/brig,/area/storage/testroom)
+"bAu" = (/turf/unsimulated/floor/vr,/area/storage/testroom)
 "bAv" = (/obj/grille,/obj/window/basic{tag = "icon-window (NORTH)"; icon_state = "window"; dir = 1},/obj/window/basic,/turf/simulated/floor/plating,/area)
 "bAw" = (/obj/stool/chair/syndicate,/turf/simulated/floor{icon_state = "carpetNW"},/area)
 "bAx" = (/turf/simulated/floor/specialroom/bar,/area)

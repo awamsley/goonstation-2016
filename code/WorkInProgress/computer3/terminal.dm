@@ -560,6 +560,7 @@ file_save - Save file to local disk."}
 						//termsignal.encryption = "\ref[netcard]"
 						termsignal.data["address_1"] = signal.data["sender"]
 						termsignal.data["command"] = "term_ping"
+						termsignal.data["area"] = "[ckey("[src.area]")]"
 
 						src.peripheral_command("transmit", termsignal, "\ref[netcard]")
 					return

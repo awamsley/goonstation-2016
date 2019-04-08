@@ -574,7 +574,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0 //no really please stay zero
 				return
@@ -1303,7 +1303,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0
 				return
@@ -1658,7 +1658,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0
 				return
@@ -1973,7 +1973,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0
 				return
@@ -2595,7 +2595,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0
 				return
@@ -3078,7 +3078,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0
 				return
@@ -3539,7 +3539,7 @@
 				if(target != src.host_id)
 					return
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				src.timeout = initial(src.timeout)
 				src.timeout_alert = 0
 				return

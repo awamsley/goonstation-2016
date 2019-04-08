@@ -365,7 +365,7 @@
 				if(target in src.timeout_list)
 					src.timeout_list -= target
 				if(signal.data["data"] == "reply")
-					src.post_status(target, "command","term_ping")
+					src.post_status(target, "command","term_ping","area","[ckey("[src.area]")]")
 				return
 
 			if("term_disconnect")
